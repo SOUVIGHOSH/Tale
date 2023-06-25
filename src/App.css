@@ -5,8 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   background: #ecf3ff;
+  overflow: scroll;
 }
 
 .appbar {
@@ -28,10 +29,9 @@
 }
 
 main {
-  position: fixed;
-  top: 12vh;
-  left: 0;
+  margin-top: 12vh;
   width: 100%;
+  overflow: scroll;
   padding: 2%;
   display: flex;
   flex-direction: column;
@@ -64,4 +64,44 @@ main {
   color: gray;
   font-weight: 400;
   cursor: pointer;
+}
+
+.feed-card {
+  width: 50vw;
+  min-width: 300px;
+  text-align: start;
+  margin-top: 5vh;
+  background: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feed-post {
+  font-size: 0.8rem;
+  padding: 2%;
+}
+
+.feed-card__header {
+  padding: 2%;
+  height: 5vh;
+}
+
+.feed-reaction {
+  margin: 5vh 1vw;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid gray;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feed-comment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.comment__input {
+  width: 90%;
 }
