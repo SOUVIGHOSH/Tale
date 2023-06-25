@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tale/static/css/main.2d8717a6.css",
+    "main.js": "/tale/static/js/main.43cf76d7.js",
+    "static/js/787.71ee6e53.chunk.js": "/tale/static/js/787.71ee6e53.chunk.js",
+    "index.html": "/tale/index.html",
+    "main.2d8717a6.css.map": "/tale/static/css/main.2d8717a6.css.map",
+    "main.43cf76d7.js.map": "/tale/static/js/main.43cf76d7.js.map",
+    "787.71ee6e53.chunk.js.map": "/tale/static/js/787.71ee6e53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d8717a6.css",
+    "static/js/main.43cf76d7.js"
+  ]
+}
